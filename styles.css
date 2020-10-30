@@ -1,5 +1,6 @@
 body{
 	background-color: white;
+	font-family: 'Merriweather black'  serif; ;
 }
 
 img{
@@ -95,4 +96,17 @@ img{
 }
 .pemesanan{
 	text-align: center;
+}
+.parallax{
+	height: 250px;
+	background: linear-gradient(rgba(10, 9, 9, 0.9),rgba(10, 9, 9, 0.5)),url("img/caffe jj.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	padding-top:  50px;
+	margin-top: 3em;
 }
